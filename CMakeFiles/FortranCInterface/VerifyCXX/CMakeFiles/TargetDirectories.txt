@@ -1,0 +1,4 @@
+/home/pi/Downloads/wsjtx/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/rebuild_cache.dir
+/home/pi/Downloads/wsjtx/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortran.dir
+/home/pi/Downloads/wsjtx/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/edit_cache.dir
+/home/pi/Downloads/wsjtx/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortranC.dir

@@ -1,0 +1,54 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource>
+    <file alias="/icon_128x128.png">/home/pi/Downloads/wsjtx/icons/Darwin/wsjtx.iconset/icon_128x128.png</file>
+    <file alias="/gpl-v3-logo.svg">/home/pi/Downloads/wsjtx/contrib/gpl-v3-logo.svg</file>
+    <file alias="/splash.png">/home/pi/Downloads/wsjtx/artwork/splash.png</file>
+    <file alias="/Palettes/Banana.pal">/home/pi/Downloads/wsjtx/Palettes/Banana.pal</file>
+    <file alias="/Palettes/Blue1.pal">/home/pi/Downloads/wsjtx/Palettes/Blue1.pal</file>
+    <file alias="/Palettes/Blue2.pal">/home/pi/Downloads/wsjtx/Palettes/Blue2.pal</file>
+    <file alias="/Palettes/Blue3.pal">/home/pi/Downloads/wsjtx/Palettes/Blue3.pal</file>
+    <file alias="/Palettes/Brown.pal">/home/pi/Downloads/wsjtx/Palettes/Brown.pal</file>
+    <file alias="/Palettes/Cyan1.pal">/home/pi/Downloads/wsjtx/Palettes/Cyan1.pal</file>
+    <file alias="/Palettes/Cyan2.pal">/home/pi/Downloads/wsjtx/Palettes/Cyan2.pal</file>
+    <file alias="/Palettes/Cyan3.pal">/home/pi/Downloads/wsjtx/Palettes/Cyan3.pal</file>
+    <file alias="/Palettes/Default.pal">/home/pi/Downloads/wsjtx/Palettes/Default.pal</file>
+    <file alias="/Palettes/Digipan.pal">/home/pi/Downloads/wsjtx/Palettes/Digipan.pal</file>
+    <file alias="/Palettes/Fldigi.pal">/home/pi/Downloads/wsjtx/Palettes/Fldigi.pal</file>
+    <file alias="/Palettes/Gray1.pal">/home/pi/Downloads/wsjtx/Palettes/Gray1.pal</file>
+    <file alias="/Palettes/Gray2.pal">/home/pi/Downloads/wsjtx/Palettes/Gray2.pal</file>
+    <file alias="/Palettes/Green1.pal">/home/pi/Downloads/wsjtx/Palettes/Green1.pal</file>
+    <file alias="/Palettes/Green2.pal">/home/pi/Downloads/wsjtx/Palettes/Green2.pal</file>
+    <file alias="/Palettes/Jungle.pal">/home/pi/Downloads/wsjtx/Palettes/Jungle.pal</file>
+    <file alias="/Palettes/Linrad.pal">/home/pi/Downloads/wsjtx/Palettes/Linrad.pal</file>
+    <file alias="/Palettes/Negative.pal">/home/pi/Downloads/wsjtx/Palettes/Negative.pal</file>
+    <file alias="/Palettes/Orange.pal">/home/pi/Downloads/wsjtx/Palettes/Orange.pal</file>
+    <file alias="/Palettes/Pink.pal">/home/pi/Downloads/wsjtx/Palettes/Pink.pal</file>
+    <file alias="/Palettes/Rainbow.pal">/home/pi/Downloads/wsjtx/Palettes/Rainbow.pal</file>
+    <file alias="/Palettes/Scope.pal">/home/pi/Downloads/wsjtx/Palettes/Scope.pal</file>
+    <file alias="/Palettes/Sunburst.pal">/home/pi/Downloads/wsjtx/Palettes/Sunburst.pal</file>
+    <file alias="/Palettes/VK4BDJ.pal">/home/pi/Downloads/wsjtx/Palettes/VK4BDJ.pal</file>
+    <file alias="/Palettes/YL2KF.pal">/home/pi/Downloads/wsjtx/Palettes/YL2KF.pal</file>
+    <file alias="/Palettes/Yellow1.pal">/home/pi/Downloads/wsjtx/Palettes/Yellow1.pal</file>
+    <file alias="/Palettes/Yellow2.pal">/home/pi/Downloads/wsjtx/Palettes/Yellow2.pal</file>
+    <file alias="/Palettes/ZL1FZ.pal">/home/pi/Downloads/wsjtx/Palettes/ZL1FZ.pal</file>
+    <file alias="/Translations/qt_ca.qm">/home/pi/Downloads/wsjtx/qt_ca.qm</file>
+    <file alias="/Translations/qt_da.qm">/home/pi/Downloads/wsjtx/qt_da.qm</file>
+    <file alias="/Translations/qt_en.qm">/home/pi/Downloads/wsjtx/qt_en.qm</file>
+    <file alias="/Translations/qt_es.qm">/home/pi/Downloads/wsjtx/qt_es.qm</file>
+    <file alias="/Translations/qt_it.qm">/home/pi/Downloads/wsjtx/qt_it.qm</file>
+    <file alias="/Translations/qt_ja.qm">/home/pi/Downloads/wsjtx/qt_ja.qm</file>
+    <file alias="/Translations/qt_it.qm">/home/pi/Downloads/wsjtx/qt_it.qm</file>
+    <file alias="/Translations/wsjtx_ca.qm">/home/pi/Downloads/wsjtx/wsjtx_ca.qm</file>
+    <file alias="/Translations/wsjtx_da.qm">/home/pi/Downloads/wsjtx/wsjtx_da.qm</file>
+    <file alias="/Translations/wsjtx_en.qm">/home/pi/Downloads/wsjtx/wsjtx_en.qm</file>
+    <file alias="/Translations/wsjtx_en_GB.qm">/home/pi/Downloads/wsjtx/wsjtx_en_GB.qm</file>
+    <file alias="/Translations/wsjtx_es.qm">/home/pi/Downloads/wsjtx/wsjtx_es.qm</file>
+    <file alias="/Translations/wsjtx_it.qm">/home/pi/Downloads/wsjtx/wsjtx_it.qm</file>
+    <file alias="/Translations/wsjtx_ja.qm">/home/pi/Downloads/wsjtx/wsjtx_ja.qm</file>
+    <file alias="/Translations/wsjtx_zh.qm">/home/pi/Downloads/wsjtx/wsjtx_zh.qm</file>
+    <file alias="/Translations/wsjtx_zh_HK.qm">/home/pi/Downloads/wsjtx/wsjtx_zh_HK.qm</file>
+    <file alias="/Translations/wsjtx_zh_TW.qm">/home/pi/Downloads/wsjtx/wsjtx_zh_TW.qm</file>
+    <file alias="/Translations/wsjtx_it.qm">/home/pi/Downloads/wsjtx/wsjtx_it.qm</file>
+  </qresource>
+</RCC>

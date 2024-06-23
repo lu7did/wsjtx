@@ -1,0 +1,5 @@
+/home/pi/Downloads/wsjtx/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/rebuild_cache.dir
+/home/pi/Downloads/wsjtx/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/edit_cache.dir
+/home/pi/Downloads/wsjtx/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/FortranCInterface.dir
+/home/pi/Downloads/wsjtx/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/myfort.dir
+/home/pi/Downloads/wsjtx/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/symbols.dir

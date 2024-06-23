@@ -1,0 +1,253 @@
+Determining if files dev/ppbus/ppi.h;dev/ppbus/ppbconf.h exist failed with the following output:
+Change Dir: /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e317b/fast && /usr/bin/make -f CMakeFiles/cmTC_e317b.dir/build.make CMakeFiles/cmTC_e317b.dir/build
+make[1]: se entra en el directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e317b.dir/HAVE_DEV_PPBUS_PPI_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e317b.dir/HAVE_DEV_PPBUS_PPI_H.c.o   -c /home/pi/Downloads/wsjtx/CMakeFiles/CheckIncludeFiles/HAVE_DEV_PPBUS_PPI_H.c
+/home/pi/Downloads/wsjtx/CMakeFiles/CheckIncludeFiles/HAVE_DEV_PPBUS_PPI_H.c:2:10: fatal error: dev/ppbus/ppi.h: No existe el fichero o el directorio
+ #include <dev/ppbus/ppi.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e317b.dir/build.make:66: CMakeFiles/cmTC_e317b.dir/HAVE_DEV_PPBUS_PPI_H.c.o] Error 1
+make[1]: se sale del directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e317b/fast] Error 2
+
+
+Source:
+/* */
+#include <dev/ppbus/ppi.h>
+#include <dev/ppbus/ppbconf.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_MATH failed with the following output:
+Change Dir: /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96270/fast && /usr/bin/make -f CMakeFiles/cmTC_96270.dir/build.make CMakeFiles/cmTC_96270.dir/build
+make[1]: se entra en el directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96270.dir/src.c.o
+/usr/bin/cc   -DHAVE_MATH   -o CMakeFiles/cmTC_96270.dir/src.c.o   -c /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_96270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96270.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_MATH    CMakeFiles/cmTC_96270.dir/src.c.o  -o cmTC_96270 
+/usr/bin/ld: CMakeFiles/cmTC_96270.dir/src.c.o: en la función `main':
+src.c:(.text+0x18): referencia a `sqrt' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_96270.dir/build.make:87: cmTC_96270] Error 1
+make[1]: se sale del directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_96270/fast] Error 2
+
+
+Source file was:
+#include<math.h>
+float f; int main(){sqrt(f);return 0;}
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c4c39/fast && /usr/bin/make -f CMakeFiles/cmTC_c4c39.dir/build.make CMakeFiles/cmTC_c4c39.dir/build
+make[1]: se entra en el directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4c39.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c4c39.dir/src.c.o   -c /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c4c39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4c39.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_c4c39.dir/src.c.o  -o cmTC_c4c39 
+/usr/bin/ld: CMakeFiles/cmTC_c4c39.dir/src.c.o: en la función `main':
+src.c:(.text+0x40): referencia a `pthread_create' sin definir
+/usr/bin/ld: src.c:(.text+0x4c): referencia a `pthread_detach' sin definir
+/usr/bin/ld: src.c:(.text+0x5c): referencia a `pthread_join' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c4c39.dir/build.make:87: cmTC_c4c39] Error 1
+make[1]: se sale del directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c4c39/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19d59/fast && /usr/bin/make -f CMakeFiles/cmTC_19d59.dir/build.make CMakeFiles/cmTC_19d59.dir/build
+make[1]: se entra en el directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19d59.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_19d59.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19d59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d59.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_19d59.dir/CheckFunctionExists.c.o  -o cmTC_19d59  -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_19d59.dir/build.make:87: cmTC_19d59] Error 1
+make[1]: se sale del directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_19d59/fast] Error 2
+
+
+
+Determining size of CACHE_ALL failed with the following output:
+Change Dir: /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d1ad/fast && /usr/bin/make -f CMakeFiles/cmTC_0d1ad.dir/build.make CMakeFiles/cmTC_0d1ad.dir/build
+make[1]: se entra en el directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d1ad.dir/HAMLIB_OLD_CACHING.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0d1ad.dir/HAMLIB_OLD_CACHING.c.o   -c /home/pi/Downloads/wsjtx/CMakeFiles/CheckTypeSize/HAMLIB_OLD_CACHING.c
+/home/pi/Downloads/wsjtx/CMakeFiles/CheckTypeSize/HAMLIB_OLD_CACHING.c:23:22: error: ‘CACHE_ALL’ undeclared here (not in a function)
+ #define SIZE (sizeof(CACHE_ALL))
+                      ^~~~~~~~~
+/home/pi/Downloads/wsjtx/CMakeFiles/CheckTypeSize/HAMLIB_OLD_CACHING.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_0d1ad.dir/build.make:66: CMakeFiles/cmTC_0d1ad.dir/HAMLIB_OLD_CACHING.c.o] Error 1
+make[1]: se sale del directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0d1ad/fast] Error 2
+
+
+/home/pi/Downloads/wsjtx/CMakeFiles/CheckTypeSize/HAMLIB_OLD_CACHING.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(CACHE_ALL))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the rig_set_cache_timeout_ms exist failed with the following output:
+Change Dir: /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8741c/fast && /usr/bin/make -f CMakeFiles/cmTC_8741c.dir/build.make CMakeFiles/cmTC_8741c.dir/build
+make[1]: se entra en el directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8741c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8741c.dir/CheckSymbolExists.c.o   -c /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8741c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8741c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8741c.dir/CheckSymbolExists.c.o  -o cmTC_8741c 
+/usr/bin/ld: CMakeFiles/cmTC_8741c.dir/CheckSymbolExists.c.o: en la función `main':
+CheckSymbolExists.c:(.text+0x38): referencia a `rig_set_cache_timeout_ms' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_8741c.dir/build.make:87: cmTC_8741c] Error 1
+make[1]: se sale del directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8741c/fast] Error 2
+
+
+File /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <hamlib/rig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rig_set_cache_timeout_ms
+  return ((int*)(&rig_set_cache_timeout_ms))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a8ae2/fast && /usr/bin/make -f CMakeFiles/cmTC_a8ae2.dir/build.make CMakeFiles/cmTC_a8ae2.dir/build
+make[1]: se entra en el directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a8ae2.dir/src.cxx.o
+/usr/bin/c++    -Werror -Wall -Wextra -fexceptions -frtti -Wno-pragmas -fopenmp --std=gnu++11 -pthread -DCOMPILER_HAS_DEPRECATED_ATTR -O3 -DNDEBUG -fdata-sections -ffunction-sections   -o CMakeFiles/cmTC_a8ae2.dir/src.cxx.o -c /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.cxx:2:34: error: ‘int somefunc()’ is deprecated [-Werror=deprecated-declarations]
+     int main() { return somefunc();}
+                                  ^
+/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+ __attribute__((__deprecated__)) int somefunc() { return 0; }
+                                     ^~~~~~~~
+/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.cxx:2:34: error: ‘int somefunc()’ is deprecated [-Werror=deprecated-declarations]
+     int main() { return somefunc();}
+                                  ^
+/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+ __attribute__((__deprecated__)) int somefunc() { return 0; }
+                                     ^~~~~~~~
+cc1plus: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTC_a8ae2.dir/build.make:66: CMakeFiles/cmTC_a8ae2.dir/src.cxx.o] Error 1
+make[1]: se sale del directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a8ae2/fast] Error 2
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED failed with the following output:
+Change Dir: /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68b1d/fast && /usr/bin/make -f CMakeFiles/cmTC_68b1d.dir/build.make CMakeFiles/cmTC_68b1d.dir/build
+make[1]: se entra en el directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68b1d.dir/src.cxx.o
+/usr/bin/c++    -Werror -Wall -Wextra -fexceptions -frtti -Wno-pragmas -fopenmp --std=gnu++11 -pthread -DCOMPILER_HAS_DEPRECATED -O3 -DNDEBUG -fdata-sections -ffunction-sections   -o CMakeFiles/cmTC_68b1d.dir/src.cxx.o -c /home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.cxx:1:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+ __declspec(deprecated) int somefunc() { return 0; }
+           ^
+/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp/src.cxx:2:25: error: ‘somefunc’ was not declared in this scope
+     int main() { return somefunc();}
+                         ^~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_68b1d.dir/build.make:66: CMakeFiles/cmTC_68b1d.dir/src.cxx.o] Error 1
+make[1]: se sale del directorio '/home/pi/Downloads/wsjtx/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_68b1d/fast] Error 2
+
+
+Source file was:
+__declspec(deprecated) int somefunc() { return 0; }
+    int main() { return somefunc();}

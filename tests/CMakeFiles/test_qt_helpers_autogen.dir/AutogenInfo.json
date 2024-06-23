@@ -1,0 +1,86 @@
+{
+	"BUILD_DIR" : "/home/pi/Downloads/wsjtx/tests/test_qt_helpers_autogen",
+	"CMAKE_BINARY_DIR" : "/home/pi/Downloads/wsjtx",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/pi/Downloads/wsjtx/tests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/pi/Downloads/wsjtx/tests",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/pi/Downloads/wsjtx",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/pi/Downloads/wsjtx/tests/test_qt_helpers_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/pi/Downloads/wsjtx/tests/test_qt_helpers_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BIGSYM=1",
+		"BOOST_ALL_DYN_LINK",
+		"CMAKE_BUILD",
+		"QT5",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SQL_LIB",
+		"QT_TESTCASE_BUILDDIR=\"/home/pi/Downloads/wsjtx\"",
+		"QT_TESTLIB_LIB",
+		"QT_WIDGETS_LIB",
+		"UDP_STATIC_DEFINE",
+		"UNIX"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/pi/Downloads/wsjtx/tests",
+		"/home/pi/Downloads/wsjtx",
+		"/home/pi/Downloads/wsjtx/qcustomplot-source",
+		"/usr/include/arm-linux-gnueabihf/qt5",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtWidgets",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtGui",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtCore",
+		"/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtPrintSupport",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtNetwork",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtSql",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtTest",
+		"/usr/local/include",
+		"/usr/include",
+		"/usr/include/c++/8",
+		"/usr/include/arm-linux-gnueabihf/c++/8",
+		"/usr/include/c++/8/backward",
+		"/usr/lib/gcc/arm-linux-gnueabihf/8/include",
+		"/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed",
+		"/usr/include/arm-linux-gnueabihf"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/pi/Downloads/wsjtx/tests/test_qt_helpers_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 1,
+	"PARSE_CACHE_FILE" : "/home/pi/Downloads/wsjtx/tests/CMakeFiles/test_qt_helpers_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/pi/Downloads/wsjtx/tests/CMakeFiles/test_qt_helpers_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/pi/Downloads/wsjtx/tests/test_qt_helpers.cpp", "Mu" ]
+	],
+	"VERBOSITY" : 0
+}

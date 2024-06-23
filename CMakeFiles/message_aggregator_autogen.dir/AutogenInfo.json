@@ -1,0 +1,146 @@
+{
+	"BUILD_DIR" : "/home/pi/Downloads/wsjtx/message_aggregator_autogen",
+	"CMAKE_BINARY_DIR" : "/home/pi/Downloads/wsjtx",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/pi/Downloads/wsjtx",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/pi/Downloads/wsjtx",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/pi/Downloads/wsjtx",
+	"HEADERS" : 
+	[
+		[
+			"/home/pi/Downloads/wsjtx/UDPExamples/BeaconsModel.hpp",
+			"Mu",
+			"24QFPIC2HW/moc_BeaconsModel.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/UDPExamples/ClientWidget.hpp",
+			"Mu",
+			"24QFPIC2HW/moc_ClientWidget.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/UDPExamples/DecodesModel.hpp",
+			"Mu",
+			"24QFPIC2HW/moc_DecodesModel.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/UDPExamples/MessageAggregatorMainWindow.hpp",
+			"Mu",
+			"24QFPIC2HW/moc_MessageAggregatorMainWindow.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/VersionInfo_message_aggregator.h",
+			"Mu",
+			"EWIEGA46WW/moc_VersionInfo_message_aggregator.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/validators/MaidenheadLocatorValidator.hpp",
+			"Mu",
+			"XRTON5MY4F/moc_MaidenheadLocatorValidator.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/pi/Downloads/wsjtx/message_aggregator_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/pi/Downloads/wsjtx/message_aggregator_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BIGSYM=1",
+		"BOOST_ALL_DYN_LINK",
+		"CMAKE_BUILD",
+		"QT5",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB",
+		"UDP_STATIC_DEFINE",
+		"UNIX"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/pi/Downloads/wsjtx",
+		"/home/pi/Downloads/wsjtx/qcustomplot-source",
+		"/usr/include/arm-linux-gnueabihf/qt5",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtWidgets",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtGui",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtCore",
+		"/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtPrintSupport",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtNetwork",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtSql",
+		"/usr/local/include",
+		"/usr/include",
+		"/usr/include/c++/8",
+		"/usr/include/arm-linux-gnueabihf/c++/8",
+		"/usr/include/c++/8/backward",
+		"/usr/lib/gcc/arm-linux-gnueabihf/8/include",
+		"/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed",
+		"/usr/include/arm-linux-gnueabihf"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/pi/Downloads/wsjtx/message_aggregator_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/pi/Downloads/wsjtx/qrc_message_aggregator.cpp",
+		"/home/pi/Downloads/wsjtx/qrc_style.cpp",
+		"/home/pi/Downloads/wsjtx/qrc_wsjtx.cpp",
+		"/home/pi/Downloads/wsjtx/ui_CabrilloLogWindow.h",
+		"/home/pi/Downloads/wsjtx/ui_Configuration.h",
+		"/home/pi/Downloads/wsjtx/ui_ExportCabrillo.h",
+		"/home/pi/Downloads/wsjtx/ui_FoxLogWindow.h",
+		"/home/pi/Downloads/wsjtx/ui_about.h",
+		"/home/pi/Downloads/wsjtx/ui_astro.h",
+		"/home/pi/Downloads/wsjtx/ui_colorhighlighting.h",
+		"/home/pi/Downloads/wsjtx/ui_echograph.h",
+		"/home/pi/Downloads/wsjtx/ui_fastgraph.h",
+		"/home/pi/Downloads/wsjtx/ui_logqso.h",
+		"/home/pi/Downloads/wsjtx/ui_mainwindow.h",
+		"/home/pi/Downloads/wsjtx/ui_messageaveraging.h",
+		"/home/pi/Downloads/wsjtx/ui_pskreporterwidget.h",
+		"/home/pi/Downloads/wsjtx/ui_unfilteredview.h",
+		"/home/pi/Downloads/wsjtx/ui_wf_palette_design_dialog.h",
+		"/home/pi/Downloads/wsjtx/ui_widegraph.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 1,
+	"PARSE_CACHE_FILE" : "/home/pi/Downloads/wsjtx/CMakeFiles/message_aggregator_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/pi/Downloads/wsjtx/CMakeFiles/message_aggregator_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/pi/Downloads/wsjtx/UDPExamples/BeaconsModel.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/UDPExamples/ClientWidget.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/UDPExamples/DecodesModel.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/UDPExamples/MessageAggregator.cpp", "Mu" ],
+		[
+			"/home/pi/Downloads/wsjtx/UDPExamples/MessageAggregatorMainWindow.cpp",
+			"Mu"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/validators/MaidenheadLocatorValidator.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}

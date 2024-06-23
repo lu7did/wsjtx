@@ -1,0 +1,304 @@
+{
+	"BUILD_DIR" : "/home/pi/Downloads/wsjtx/wsjtx_autogen",
+	"CMAKE_BINARY_DIR" : "/home/pi/Downloads/wsjtx",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/pi/Downloads/wsjtx",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/pi/Downloads/wsjtx",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/pi/Downloads/wsjtx",
+	"HEADERS" : 
+	[
+		[
+			"/home/pi/Downloads/wsjtx/Audio/soundin.h",
+			"Mu",
+			"2FE6EWJZIU/moc_soundin.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/Audio/soundout.h",
+			"Mu",
+			"2FE6EWJZIU/moc_soundout.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/Configuration.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_Configuration.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/Decoder/decodedtext.h",
+			"Mu",
+			"NMJ6GIEFL4/moc_decodedtext.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/Detector/Detector.hpp",
+			"Mu",
+			"Z5BV2UB2AN/moc_Detector.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/Modulator/Modulator.hpp",
+			"Mu",
+			"5JBQCZXOOQ/moc_Modulator.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/Network/PSKReporter.hpp",
+			"Mu",
+			"XUVW4URUT3/moc_PSKReporter.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/Network/wsprnet.h",
+			"Mu",
+			"XUVW4URUT3/moc_wsprnet.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/VersionInfo_wsjtx.h",
+			"Mu",
+			"EWIEGA46WW/moc_VersionInfo_wsjtx.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/WSJTXLogging.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_WSJTXLogging.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/WSPR/WSPRBandHopping.hpp",
+			"Mu",
+			"SQKEKEQ4M6/moc_WSPRBandHopping.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/WSPR/WsprTxScheduler.h",
+			"Mu",
+			"SQKEKEQ4M6/moc_WsprTxScheduler.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/getfile.h",
+			"Mu",
+			"EWIEGA46WW/moc_getfile.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/logbook/logbook.h",
+			"Mu",
+			"URXSZGGFNB/moc_logbook.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/ExportCabrillo.h",
+			"Mu",
+			"IMAN36LHMA/moc_ExportCabrillo.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/about.h",
+			"Mu",
+			"IMAN36LHMA/moc_about.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/astro.h",
+			"Mu",
+			"IMAN36LHMA/moc_astro.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/colorhighlighting.h",
+			"Mu",
+			"IMAN36LHMA/moc_colorhighlighting.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/displaytext.h",
+			"Mu",
+			"IMAN36LHMA/moc_displaytext.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/echograph.h",
+			"Mu",
+			"IMAN36LHMA/moc_echograph.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/echoplot.h",
+			"Mu",
+			"IMAN36LHMA/moc_echoplot.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/fastgraph.h",
+			"Mu",
+			"IMAN36LHMA/moc_fastgraph.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/fastplot.h",
+			"Mu",
+			"IMAN36LHMA/moc_fastplot.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/logqso.h",
+			"Mu",
+			"IMAN36LHMA/moc_logqso.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/mainwindow.h",
+			"Mu",
+			"IMAN36LHMA/moc_mainwindow.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/messageaveraging.h",
+			"Mu",
+			"IMAN36LHMA/moc_messageaveraging.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/meterwidget.h",
+			"Mu",
+			"IMAN36LHMA/moc_meterwidget.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/plotter.h",
+			"Mu",
+			"IMAN36LHMA/moc_plotter.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/pskreporterwidget.h",
+			"Mu",
+			"IMAN36LHMA/moc_pskreporterwidget.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/signalmeter.h",
+			"Mu",
+			"IMAN36LHMA/moc_signalmeter.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/unfilteredview.h",
+			"Mu",
+			"IMAN36LHMA/moc_unfilteredview.cpp"
+		],
+		[
+			"/home/pi/Downloads/wsjtx/widgets/widegraph.h",
+			"Mu",
+			"IMAN36LHMA/moc_widegraph.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/pi/Downloads/wsjtx/wsjtx_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/pi/Downloads/wsjtx/wsjtx_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BIGSYM=1",
+		"BOOST_ALL_DYN_LINK",
+		"CMAKE_BUILD",
+		"QT5",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_MULTIMEDIA_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SERIALPORT_LIB",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB",
+		"UDP_STATIC_DEFINE",
+		"UNIX"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/pi/Downloads/wsjtx",
+		"/home/pi/Downloads/wsjtx/qcustomplot-source",
+		"/usr/include/arm-linux-gnueabihf/qt5",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtCore",
+		"/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtWidgets",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtGui",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtPrintSupport",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtNetwork",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtSql",
+		"/usr/include/arm-linux-gnueabihf/qt5/QtMultimedia",
+		"/usr/include",
+		"/usr/local/include",
+		"/usr/include/c++/8",
+		"/usr/include/arm-linux-gnueabihf/c++/8",
+		"/usr/include/c++/8/backward",
+		"/usr/lib/gcc/arm-linux-gnueabihf/8/include",
+		"/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed",
+		"/usr/include/arm-linux-gnueabihf"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/pi/Downloads/wsjtx/wsjtx_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/pi/Downloads/wsjtx/message_aggregator_autogen/mocs_compilation.cpp",
+		"/home/pi/Downloads/wsjtx/qrc_message_aggregator.cpp",
+		"/home/pi/Downloads/wsjtx/qrc_style.cpp",
+		"/home/pi/Downloads/wsjtx/qrc_wsjtx.cpp",
+		"/home/pi/Downloads/wsjtx/udp_daemon_autogen/mocs_compilation.cpp",
+		"/home/pi/Downloads/wsjtx/ui_CabrilloLogWindow.h",
+		"/home/pi/Downloads/wsjtx/ui_Configuration.h",
+		"/home/pi/Downloads/wsjtx/ui_ExportCabrillo.h",
+		"/home/pi/Downloads/wsjtx/ui_FoxLogWindow.h",
+		"/home/pi/Downloads/wsjtx/ui_about.h",
+		"/home/pi/Downloads/wsjtx/ui_astro.h",
+		"/home/pi/Downloads/wsjtx/ui_colorhighlighting.h",
+		"/home/pi/Downloads/wsjtx/ui_echograph.h",
+		"/home/pi/Downloads/wsjtx/ui_fastgraph.h",
+		"/home/pi/Downloads/wsjtx/ui_logqso.h",
+		"/home/pi/Downloads/wsjtx/ui_mainwindow.h",
+		"/home/pi/Downloads/wsjtx/ui_messageaveraging.h",
+		"/home/pi/Downloads/wsjtx/ui_pskreporterwidget.h",
+		"/home/pi/Downloads/wsjtx/ui_unfilteredview.h",
+		"/home/pi/Downloads/wsjtx/ui_wf_palette_design_dialog.h",
+		"/home/pi/Downloads/wsjtx/ui_widegraph.h",
+		"/home/pi/Downloads/wsjtx/wsjtx_app_version_autogen/mocs_compilation.cpp",
+		"/home/pi/Downloads/wsjtx/wsjtx_udp-static_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 1,
+	"PARSE_CACHE_FILE" : "/home/pi/Downloads/wsjtx/CMakeFiles/wsjtx_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/pi/Downloads/wsjtx/CMakeFiles/wsjtx_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/pi/Downloads/wsjtx/Audio/soundin.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/Audio/soundout.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/Configuration.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/Decoder/decodedtext.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/Detector/Detector.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/Modulator/Modulator.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/Network/PSKReporter.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/Network/wsprnet.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/WSJTXLogging.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/WSPR/WSPRBandHopping.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/WSPR/WsprTxScheduler.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/getfile.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/logbook/logbook.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/main.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/ExportCabrillo.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/about.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/astro.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/colorhighlighting.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/displaytext.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/echograph.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/echoplot.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/fastgraph.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/fastplot.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/logqso.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/mainwindow.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/messageaveraging.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/meterwidget.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/plotter.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/pskreporterwidget.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/signalmeter.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/unfilteredview.cpp", "Mu" ],
+		[ "/home/pi/Downloads/wsjtx/widgets/widegraph.cpp", "Mu" ]
+	],
+	"VERBOSITY" : 0
+}
